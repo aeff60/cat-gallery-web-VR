@@ -1,43 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Happy Jocho</title>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <script src="app.js"></script>
     <a-scene>
-        <a-box position="0 0.4 -15" rotation="0 0 0" width="20" height="6" color="#4CC3D9"></a-box>
-        <a-box position="-12 0.4 -6" rotation="0 70 0" width="20" height="6" color="#4CC3D9"></a-box>
-        <a-box position="12 0.4 -6" rotation="0 -70 0" width="20" height="6" color="#4CC3D9"></a-box>
-        <!-- <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere> -->
-        <a-cylinder  position="-9 3 -17" radius="2" height="10" color="#FFC65D"></a-cylinder>
-        <a-cylinder  position="9 3 -17" radius="2" height="10" color="#FFC65D"></a-cylinder>
-        <a-plane position="0 -2.5 -3.65" rotation="-90 0 0" width="30" height="30" color="#e63946"></a-plane>s
-        <!-- <a-sky color="#ECECEC"></a-sky> -->
-        <!-- <a-text font="kelsonsans" value="Welcome to Jocho gallery" width="12" position="0 0.5 -14"
+      <a-box
+        position="0 0.4 -15"
+        rotation="0 0 0"
+        width="20"
+        height="6"
+        color="#4CC3D9"
+      ></a-box>
+      <a-box
+        position="-12 0.4 -6"
+        rotation="0 70 0"
+        width="20"
+        height="6"
+        color="#4CC3D9"
+      ></a-box>
+      <a-box
+        position="12 0.4 -6"
+        rotation="0 -70 0"
+        width="20"
+        height="6"
+        color="#4CC3D9"
+      ></a-box>
+      <!-- <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere> -->
+      <a-cylinder
+        position="-9 3 -17"
+        radius="2"
+        height="10"
+        color="#FFC65D"
+      ></a-cylinder>
+      <a-cylinder
+        position="9 3 -17"
+        radius="2"
+        height="10"
+        color="#FFC65D"
+      ></a-cylinder>
+      <a-plane
+        position="0 -2.5 -3.65"
+        rotation="-90 0 0"
+        width="30"
+        height="30"
+        color="#e63946"
+      ></a-plane
+      >s
+      <!-- <a-sky color="#ECECEC"></a-sky> -->
+      <!-- <a-text font="kelsonsans" value="Welcome to Jocho gallery" width="12" position="0 0.5 -14"
         rotation="0 0 0" color="#000000"></a-text> -->
-        <a-image src="jocho_gallery.png" position="0 0.5 -14" width="10" height="5"></a-image>
-        <a-image src="Jocho.jpg" position="-9 10 -17" width="4" height="4"></a-image>
-        <a-image src="Jocho.jpg" position="9 10 -17" width="4" height="4"></a-image>
-        <a-image src="cat5.png" position="-10 0.5 -8"  rotation="0 60 0"width="3" height="3"></a-image>
-        <a-image src="cat6.png" position="10 0.5 -8"  rotation="0 -60 0"width="3" height="3"></a-image>
-        
-        <a-image src="cat4.png" position="-10 0.5 -3.5"  rotation="0 60 0"width="3" height="3"></a-image>
-        <a-image src="cat1.png" position="10 0.5 -3.5"  rotation="0 -60 0"width="3" height="3"></a-image>
-        <a-image src="cat2.png" position="-10 0.5 0"  rotation="0 60 0"width="3" height="3"></a-image>
-        <a-image src="cat3.png" position="10 0.5 0"  rotation="0 -60 0"width="3" height="3"></a-image>
-        <a-gltf-model src="scene.gltf" position="10 0.5 -100" rotation="0 -10 0" width="2" height="2"></a-gltf-model>
-        
-        <a-sky src="Nan-bg.jpg"></a-sky>
+      <a-image
+        src="jocho_gallery.png"
+        position="0 0.5 -14"
+        width="10"
+        height="5"
+      ></a-image>
+      <a-image
+        src="Jocho.jpg"
+        position="-9 10 -17"
+        width="4"
+        height="4"
+      ></a-image>
+      <a-image
+        src="Jocho.jpg"
+        position="9 10 -17"
+        width="4"
+        height="4"
+      ></a-image>
+      <a-image
+        src="cat5.png"
+        position="-10 0.5 -8"
+        rotation="0 60 0"
+        width="3"
+        height="3"
+      ></a-image>
+      <a-image
+        src="cat6.png"
+        position="10 0.5 -8"
+        rotation="0 -60 0"
+        width="3"
+        height="3"
+      ></a-image>
+
+      <a-image
+        src="cat4.png"
+        position="-10 0.5 -3.5"
+        rotation="0 60 0"
+        width="3"
+        height="3"
+      ></a-image>
+      <a-image
+        src="cat1.png"
+        position="10 0.5 -3.5"
+        rotation="0 -60 0"
+        width="3"
+        height="3"
+      ></a-image>
+      <a-image
+        src="cat2.png"
+        position="-10 0.5 0"
+        rotation="0 60 0"
+        width="3"
+        height="3"
+      ></a-image>
+      <a-image
+        src="cat3.png"
+        position="10 0.5 0"
+        rotation="0 -60 0"
+        width="3"
+        height="3"
+      ></a-image>
+      <a-gltf-model
+        src="scene.gltf"
+        position="10 0.5 -100"
+        rotation="0 -10 0"
+        width="2"
+        height="2"
+      ></a-gltf-model>
+
+      <a-sky src="shot-panoramic-composition-living-room.jpg"></a-sky>
     </a-scene>
-
-</body>
-
+  </body>
 </html>
